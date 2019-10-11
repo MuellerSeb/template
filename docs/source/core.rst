@@ -1,7 +1,7 @@
-TEMP_PACKAGE.core
+YOUR_PACKAGE.core
 =================
 
-.. automodule:: TEMP_PACKAGE.core
+.. automodule:: YOUR_PACKAGE.core
    :members:
    :undoc-members:
    :inherited-members:

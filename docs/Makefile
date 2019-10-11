@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python3 -msphinx
-SPHINXPROJ    = TEMP_PACKAGE
+SPHINXPROJ    = YOUR_PACKAGE
 SOURCEDIR     = source
 BUILDDIR      = build
 

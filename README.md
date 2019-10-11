@@ -1,8 +1,8 @@
-# TEMP_PACKAGE
-A Python TEMP_PACKAGE.
+# YOUR_PACKAGE
+A Python template.
 
 ## Replace
-* ``TEMP_PACKAGE`` - package name (also folder)
+* ``YOUR_PACKAGE`` - package name (also folder)
 * ``YOUR_NAME`` - your real name
 * ``YOUR_EMAIL`` - your email address
 * ``YOUR_GITHUB_NAME`` - your github name or organization
@@ -24,7 +24,7 @@ After granting the above mentioned services access to your GitHub repository,
 the following will/should happen:
 
 * Bevor each commit:
-  * use the script `black TEMP_PACKAGE/` after you have written your code to get a unique code-format
+  * use the script `black YOUR_PACKAGE/` after you have written your code to get a unique code-format
   * have a look at the [black code formater](https://github.com/python/black)
 
 * On each commit:
@@ -47,17 +47,23 @@ the following will/should happen:
     * example: "0.0.2" -> "0.0.3.dev0"
     * commit message: "version bump 0.0.3.dev0 [skip ci]" (Travis will be skipped)
 
+* try to report your changes in the ``CHANGELOG.md`` file
+  * on release, copy everything under "Unreleased" to the release notes
+  * replace "[Unreleased]" with the version number and add a link to the comparrison
+  * create a new "Unreleased" section
+  * example: https://github.com/GeoStat-Framework/ogs5py/blob/master/CHANGELOG.md
+
 ### Versioning
-Have a look here for a versioning policy: [semver.org/](https://semver.org/)
+Have a look here, for a versioning policy: [semver.org/](https://semver.org/)
 
 ### Documentation
 * use the numpy doc style: [NumPyDoc](https://numpydoc.readthedocs.io/en/latest/format.html)
 * example: [Numpy doc example](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html)
-* the ``docs/source/package.rst`` will read the docstring from ``TEMP_PACKAGE/__init__.py``
+* the ``docs/source/package.rst`` will read the docstring from ``YOUR_PACKAGE/__init__.py``
   * use ``.. autosummary::`` there (see the source)
   * create a ``module.rst`` for each submodule in your package like ``core.py`` and ``core.rst``
   * if your submodule is a folder, create a __init__.py there
-  * include submodules in ``TEMP_PACKAGE/__init__.py`` and in the toc-tree in ``docs/source/package.rst``
+  * include submodules in ``YOUR_PACKAGE/__init__.py`` and in the toc-tree in ``docs/source/package.rst``
 * to create the Documentation locally, run: ``make clean && make html`` in the ``docs`` folder
 
 ## Cython

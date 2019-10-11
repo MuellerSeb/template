@@ -1,8 +1,8 @@
 ================
-TEMP_PACKAGE API
+YOUR_PACKAGE API
 ================
 
-.. automodule:: TEMP_PACKAGE
+.. automodule:: YOUR_PACKAGE
 
 .. raw:: latex
 

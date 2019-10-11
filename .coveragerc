@@ -1,5 +1,5 @@
 [run]
-source = TEMP_PACKAGE
+source = YOUR_PACKAGE
 omit =
     *docs*
     *examples*

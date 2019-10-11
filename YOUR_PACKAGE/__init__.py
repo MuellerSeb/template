@@ -3,7 +3,7 @@
 Purpose
 =======
 
-TEMP_PACKAGE: a python TEMP_PACKAGE.
+YOUR_PACKAGE: a Python template.
 
 Subpackages
 ===========
@@ -14,8 +14,8 @@ Subpackages
 """
 from __future__ import absolute_import
 
-from TEMP_PACKAGE._version import __version__
-from TEMP_PACKAGE import core
+from YOUR_PACKAGE._version import __version__
+from YOUR_PACKAGE import core
 
 __all__ = ["__version__"]
 __all__ += ["core"]

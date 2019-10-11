@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""A Python TEMP_PACKAGE."""
+"""YOUR_PACKAGE: A Python template."""
 
 import os
 import codecs
@@ -55,10 +55,10 @@ CLASSIFIERS = [
     "Topic :: Utilities",
 ]
 
-VERSION = find_version("TEMP_PACKAGE", "_version.py")
+VERSION = find_version("YOUR_PACKAGE", "_version.py")
 
 setup(
-    name="TEMP_PACKAGE",
+    name="YOUR_PACKAGE",
     version=VERSION,
     maintainer="YOUR_NAME",
     maintainer_email="YOUR_EMAIL",
@@ -67,7 +67,7 @@ setup(
     long_description_content_type="text/markdown",
     author="YOUR_NAME",
     author_email="YOUR_EMAIL",
-    url="https://github.com/YOUR_GITHUB_NAME/TEMP_PACKAGE",
+    url="https://github.com/YOUR_GITHUB_NAME/YOUR_PACKAGE",
     license="MIT",
     classifiers=CLASSIFIERS,
     platforms=["Windows", "Linux", "Solaris", "Mac OS-X", "Unix"],

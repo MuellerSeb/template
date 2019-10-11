@@ -1,6 +1,6 @@
-# TEMP_PACKAGE
+# YOUR_PACKAGE
 
-TEMP_PACKAGE is not available yet.
+YOUR_PACKAGE is not available yet.
 
 
 ## Main Authors

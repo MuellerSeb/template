@@ -1,8 +1,8 @@
 =======================
-TEMP_PACKAGE Quickstart
+YOUR_PACKAGE Quickstart
 =======================
 
-TEMP_PACKAGE: A Python TEMP_PACKAGE.
+YOUR_PACKAGE: A Python template.
 
 
 Installation
@@ -10,7 +10,7 @@ Installation
 
 .. code-block:: none
 
-    pip install TEMP_PACKAGE
+    pip install YOUR_PACKAGE
 
 
 Further Information
@@ -22,4 +22,4 @@ Requirements
 License
 =======
 
-`MIT <https://github.com/YOUR_NAME/TEMP_PACKAGE/blob/master/LICENSE>`_ © 2019
+`MIT <https://github.com/YOUR_NAME/YOUR_PACKAGE/blob/master/LICENSE>`_ © 2019

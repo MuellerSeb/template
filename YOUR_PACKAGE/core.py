@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-The core module of TEMP_PACKAGE.
+The core module of YOUR_PACKAGE.
 
 The following functions are provided
 
-.. currentmodule:: TEMP_PACKAGE.core
+.. currentmodule:: YOUR_PACKAGE.core
 
 .. autosummary::
    dummy_func
 """
 from __future__ import division, absolute_import, print_function
 
-from TEMP_PACKAGE import __version__
+from YOUR_PACKAGE import __version__
 
 
 def dummy_func(dummy_arg=1, **kwargs):

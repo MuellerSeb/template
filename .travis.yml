@@ -26,7 +26,7 @@ script:
       python -m pip install pytest-cov coveralls
       python -m pip install -r docs/requirements.txt
       python setup.py sdist
-      python -m pytest --cov TEMP_PACKAGE --cov-report term-missing -v tests/
+      python -m pytest --cov YOUR_PACKAGE --cov-report term-missing -v tests/
       python -m coveralls
     fi
 
